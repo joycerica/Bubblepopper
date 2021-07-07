@@ -1,0 +1,6 @@
+TEACHER
+1. Sa create option, nakadisabled yung save button. mageenable lang sya if nalagyan na ng input yung limang question box and yung game name.
+2. Sa edit option, meron nang delete option, kung gusto ni teacher na idelete yung buong quiz. Pag gusto niya iedit, iselect lang niya yung row ng quiz.
+ 
+Student
+Naaaccess na yung quiz.

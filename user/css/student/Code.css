@@ -1,0 +1,58 @@
+/*COMMON
+*
+*/
+*body{
+    padding:0;
+    margin: 0;
+}
+.Main{
+    padding: 30px;
+    margin-top: 10px;
+    height: 640px;
+}
+img{
+    width: 25px;
+    height: 25px;
+}
+.Box{
+    height: 400px;
+}
+.log a{
+    text-decoration: none;
+    color: inherit;
+    margin-left: 5px;   
+}
+/*CONTENT
+*
+*/
+h1{
+    margin: 10px;
+}
+.code label{
+    padding: 15px 100px 15px 15px;
+    border-style: solid;
+    border-width: 2px;
+}
+label{
+    margin: 20px;
+    font-size: 25px;
+}
+/*MEDIA
+*
+*/
+@media (min-width: 350px) and (max-width: 575px) {
+    .Box{
+        height: 420px;
+    }
+    .form-check{
+        margin-top: 10px;
+    }
+    .btn{
+        width: 250px;
+        margin-left: 20px;
+    }
+    .log a{
+        margin-left: 0px;
+    }
+    }
+    

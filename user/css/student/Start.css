@@ -1,0 +1,65 @@
+/*COMMON
+*
+*/
+*body{
+    padding:0;
+    margin: 0;
+}
+.Main{
+    padding: 30px;
+    margin-top: 10px;
+    height: 640px;
+}
+.Box{
+    height: 400px;
+}
+/*CONTENT
+*
+*/
+.username{
+    padding: 3px;
+    margin: 15px 150px 15px 150px;
+}
+.btn{
+    width: 500px;
+    height: 100px;
+    padding: 10px;
+    font-size: 50px;
+    font-weight: bold;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*MEDIA
+*
+*/
+@media (min-width: 575.98px) and (max-width: 767.98px) {
+    .btn {
+        width: 400px;
+    }
+
+}
+@media (min-width: 470px) and (max-width: 575.98px) {
+    .btn {
+        width: 300px;
+    }
+    .Box{
+        height: 420px;
+    }
+    .username{
+        margin:15px;
+    }
+}
+@media (min-width: 350px) and (max-width: 470px) {
+    .btn{
+        width: 200px;
+    }
+    .Box{
+        height:auto;
+    }
+    .username{
+        margin:15px;
+    }
+    }
+    
